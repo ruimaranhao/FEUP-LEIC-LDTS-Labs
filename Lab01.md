@@ -13,13 +13,15 @@
 Let's start by creating a project in [IntelliJ IDEA](https://www.jetbrains.com/idea/):
 
 - Open IntelliJ and choose the "New Project" option.
-- Choose "Java" for the type of project and a suitable project SDK (>= 11.0.0). Click "Next". 
-- Do not choose any of the available project templates. Click "Next".
-- Name the project `helloworld` and choose a suitable project location. Click "Finish".
+- On the left, choose "Java" for the type of project.
+- Name the project `helloworld` and choose a suitable project location.
+- Choose "Gradle" as the "Build System", "Groovy" as the "Gradle DSL", and deselect "Add sample code".
+- For the SDK, select any with version 21. If none is listed, you can download it directly from IntelliJ.
+- Click "Create". 
 
-The steps above will create a `.idea` directory and a `helloworld.iml` file. These are where IntelliJ keeps all the settings for your project. Note that there is also a `src` directory where all the source code is stored.
+The steps above will create a `.idea` directory. This is where IntelliJ keeps all the settings for your project. Note that there is also a `src` directory where all the source code is stored.
 
-On the Project tool window (the frame on the left), open the `helloworld` folder, right-click the `src` directory, and choose "New > Java Class". Name your class `Application`, and include a `main` method, so that the code will look like the sample below.
+On the Project tool window (the frame on the left), open the `helloworld` folder, right-click the `src` directory, navigate to `main > java` and choose "New > Java Class". Name your class `Application`, and include a `main` method, so that the code will look like the sample below.
 
 ```java
 public class Application {
@@ -43,7 +45,7 @@ Congratulations, you have created your first Java application!
 >
 > Or just press `Shift+F10`...
 
-Take a moment to check the `out` directory. This is where IntelliJ generates the result of the compilation process. You should be able to find there an `Application.class` file. This file contains the bytecode, generated from the source code, that can be run using any Java Virtual Machine (JVM).
+Take a moment to check the `build` directory. This is where IntelliJ generates the result of the compilation process. You should be able to find there an `Application.class` file. This file contains the bytecode, generated from the source code, that can be run using any Java Virtual Machine (JVM).
 
 ### 2. Initialize Git Repository
 
