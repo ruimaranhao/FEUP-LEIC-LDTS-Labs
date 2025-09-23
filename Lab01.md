@@ -13,7 +13,7 @@
 Let's start by creating a project in [IntelliJ IDEA](https://www.jetbrains.com/idea/):
 
 - Open IntelliJ and choose the "New Project" option.
-- Choose "Java" for the type of project and a suitable project SDK (>= 11.0.0). Click "Next".
+- Choose "Java" for the type of project and a suitable project SDK (>= 11.0.0). Click "Next". 
 - Do not choose any of the available project templates. Click "Next".
 - Name the project `helloworld` and choose a suitable project location. Click "Finish".
 
@@ -87,6 +87,19 @@ git status
 ```
 
 > You could also just create and edit the `.gitignore` file using a text/code editor. We are just being fancy...
+
+Before continuing, please identify yourself to Git so that your repository actions can be attributed to you later by the team. To do this, run the commands below, replacing the e-mail and name accordingly.
+
+```shell
+git config --global user.name "Yor Name"
+git config --global user.email "youremail@examle.com"
+```
+
+The command below is useful to see these and other currently global and local Git configurations:
+
+```shell
+git config --list --show-origin --show-scope
+```
 
 Now, it is time to create the first version of our project. Let's start by adding the files to the staging area and then committing them using the commands below. Execute the git status command before and after each one of these steps to see how the files change state.
 
@@ -254,7 +267,7 @@ Git uses two main strategies to merge branches:
 In this example, there was divergent work, so a three-way merge is needed. This implies that a new commit with the merged files will be created. Execute the following command to merge the two branches and Git will ask you to enter a message for the new commit.
 
 ```shell
-git merge testing
+git merge testing -m "Merging testing and master branches"
 ```
 
 > :heavy_exclamation_mark: **Note**: As always, the current branch is the one following the new commit.
@@ -311,8 +324,8 @@ Stage and commit this change with the message "Added the version number".
 And finally, try to merge the changes of the `testing` branch back into the `master` branch.
 
 ```shell
-git checkout master     # go back to the master branch ...
-git merge testing       # … and try to merge testing
+git checkout master                                    # go back to the master branch ...
+git merge testing -m "Merging testing and master"      # … and try to merge testing
 ```
 
 The result of this should be the following message from Git.
@@ -443,7 +456,7 @@ git fetch
 This only fetches the new commit from the remote, it does not merge them. The remote branch `origin/master` is also updated in your local repository and is now pointing to the fetched commit. So we can do the following to merge:
 
 ```shell
-git merge origin/master
+git merge origin/master -m "Merging local and remote content"
 ```
 
 > :woman_technologist: **Tip**: We could have combined these two operations (fetch and merge) in a single command: `git pull`.
