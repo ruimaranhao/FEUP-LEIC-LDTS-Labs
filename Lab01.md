@@ -76,15 +76,14 @@ git status -s
 
 As you can see by the output, all files are reported as untracked by Git. You will create the first Git version of the project using some of these files, but it would be best to simply ignore some of the others:
 
-- We will ignore the `out` directory because it can be regenerated from the source code.
-- We will ignore the `.idea` directory and `*.iml` files as they are IntelliJ specific and other developers might use different IDEs.
+- We will ignore the `build` directory because it can be regenerated from the source code.
+- We will ignore the `.idea` directory as it is IntelliJ specific, and other developers might use different IDEs.
 
 To do this, execute the command below. Note that, after this, git status no longer reports the ignored files as untracked.
 
 ```shell
-echo "out/" >> .gitignore     # this appends out to the .gitignore file
+echo "build/" >> .gitignore     # this appends out to the .gitignore file
 echo ".idea/" >> .gitignore   # this appends .idea to the .gitignore file
-echo "*.iml" >> .gitignore    # this appends *.iml* to the .gitignore file
 git status
 ```
 
