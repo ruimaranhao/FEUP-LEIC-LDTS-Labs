@@ -15,7 +15,7 @@ All labs must be submitted via GitHub Classroom. Submitted labs will be assessed
 
 ### 2. Project Setup
 
-- **Download** and **unzip** the following [project](https://moodle2425.up.pt/mod/resource/view.php?id=40917) into a suitable folder on your computer.
+- **Download** and **unzip** the following [project](https://moodle2526.up.pt/mod/resource/view.php?id=45769) into a suitable folder on your computer.
 - Launch **IntelliJ**, then **open** the project.
 - To Run all tests, navigate to `src/test/java`, **right-click** and choose **“Run Tests in 'numbers.test'”**.
 - Ensure that all tests **pass**. If necessary, enable the display of passing tests by clicking the checkmark (✔️) icon.
