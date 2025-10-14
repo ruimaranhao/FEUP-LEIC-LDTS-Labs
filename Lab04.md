@@ -28,7 +28,7 @@ All labs must be submitted via GitHub Classroom. Submitted labs will be assessed
     build/
     *.iml
     ```
-- Connect your local repository to the remote by running `git remote add origin <remote_address>`. The remote address should resemble: `git@github.com:FEUP-LDTS-2024/lab-w5-unit-testing-<your_username>.git`. (Refer to the steps from our last lab if needed). After linking, don't forget to commit your changes and push them to the remote repository.
+- Connect your local repository to the remote by running `git remote add origin <remote_address>`. The remote address should resemble: `git@github.com:FEUP-LDTS-2024/lab-w4-unit-testing-<your_username>.git`. (Refer to the steps from our last lab if needed). After linking, don't forget to commit your changes and push them to the remote repository.
 
 ### 3. Inspect and Analyze the Project
 
