@@ -212,7 +212,7 @@ And, then create the **Stub**:
 
 - Create a **stub** that always returns the correct result for the data being tested. Implement it as an **inner-class** within the `ListAggregatorTest.distinct()` method. For example:
 ```java
-    class Stub extends ListDeduplicator {
+    class Stub implements GenericListDeduplicator {
         @Override
         public List<Integer> deduplicate(List<Integer> list) {
             return valueToReturn; // Return the distinct elements
