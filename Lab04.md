@@ -199,6 +199,54 @@ This approach promotes flexibility and decouples the components, allowing for ea
 
 This technique is known as **[Dependency Injection](https://web.fe.up.pt/~arestivo/slides/?s=unit-testing#21)**. It allows our test to inject into the `ListAggregator` any list deduplicator **service**, including one that always returns a predefined response (as explained in **Stub**, [Unit Testing Class#Slide 23](https://web.fe.up.pt/~arestivo/slides/?s=unit-testing#23)).
 
+
+> :question: We have just done dependency injection via a parameter of the `distinct` method. Another option would be to inject this dependency via the constructor of the class. What are the advantages and disadvnages of doing one over the other?
+
+```java
+package com.aor.numbers;
+
+import java.util.List;
+
+public class ListAggregator {
+    
+    private final GenericListDeduplicator deduplicator;
+    
+    // Injeção de dependência in the constructor
+    public ListAggregator(GenericListDeduplicator deduplicator) {
+        this.deduplicator = deduplicator;
+    }
+    
+    public Integer sum(List<Integer> list) {
+        int sum = 0;
+        for (Integer number : list)
+            sum += number;
+        return sum;
+    }
+    
+    public Integer max(List<Integer> list) {
+        int max = 0;
+        for (Integer number : list)
+            if (number > max)
+                max = number;
+        return max;
+    }
+    
+    public Integer min(List<Integer> list) {
+        int min = Integer.MAX_VALUE;
+        for (Integer number : list)
+            if (number < min)
+                min = number;
+        return min;
+    }
+    
+    public int distinct(List<Integer> list) {
+        List<Integer> distinctList = deduplicator.deduplicate(list);
+        return distinctList.size();
+    }
+}
+```
+
+
 ##### 6.4 Let's fix the test
 
 To remove the dependency between the `ListAggregatorTest` and the `ListDeduplicator` class using a **stub**, we first need to:
