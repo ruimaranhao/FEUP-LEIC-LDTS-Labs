@@ -254,3 +254,12 @@ Sum of areas: 200.0
 ### 6. TIME FOR HEROES
 
 Open your **Hero** project, you created in a previous class, and analyse it looking for possible OOP principles violations.
+
+### 7. SOLID PRINCIPLES IN PRACTICE
+
+Now that you've worked through all five SOLID principles, you may wonder: "Do I always need to apply these?"
+
+For small programs like the one in this lab, following SOLID principles might feel like extra work. That's completely normal! You're building design habits now that become essential when working on larger systems, with teams, and on code that needs to be maintained for months or years.
+As you continue your software engineering journey and work on more complex projects, you'll start noticing some pain points. Maybe you wrote your code expecting any `Bird` to fly, then your program crashes when someone adds a `Penguin` (LSP). Or maybe your `Printer` class is forced to implement `scan()` and `fax()` methods even though it's just a basic printer (ISP). 
+
+When this inevitabily happens, we hope you will remember these principles and use them in your favor to improve the design of your software.
