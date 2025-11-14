@@ -18,7 +18,7 @@ Object-oriented design patterns typically show relationships and interactions be
 
 ### 1. COMMAND PATTERN
 
-In this exercise we will implement the **Command** pattern.
+In this exercise we will implement the **Command** pattern. You can learn more about it [here](https://refactoring.guru/design-patterns/command).
 
 - Start by creating a new _Gradle/Java_ project in **IntelliJ**.
 - Also add **mockito** as a dependency by modifying the **dependencies** section in your `build.grade` file:
@@ -148,7 +148,7 @@ public void transformUndo() {
 
 ### 2. COMPOSITE PATTERN
 
-At this point it’s easy to combine `StringTransformer`s (the steps in our recipes) to assemble different `StringRecipe`s. However, we expect that there will be some particular sequences of steps that appear in many different recipes. How can we reuse these recurring sequences of steps? The Composite pattern will help.
+At this point it’s easy to combine `StringTransformer`s (the steps in our recipes) to assemble different `StringRecipe`s. However, we expect that there will be some particular sequences of steps that appear in many different recipes. How can we reuse these recurring sequences of steps? The Composite pattern will help. You can learn more about it [here](https://refactoring.guru/design-patterns/composite).
 
 - Create a new class called `StringTransformerGroup` that passes the following test:
 
@@ -214,7 +214,7 @@ You have now implemented the **Composite** pattern where the `StringTransformer`
 
 ### 3. OBSERVER PATTERN
 
-We will now implement a bar where clients will be able to order drinks by specifying their recipes. However, our clients want to be notified every time their favorite bars go into happy hour. We can use the observer pattern for this.
+We will now implement a bar where clients will be able to order drinks by specifying their recipes. However, our clients want to be notified every time their favorite bars go into happy hour. We can use the observer pattern for this. You can learn more about it [here](https://refactoring.guru/design-patterns/observer).
 
 - Create a new *abstract* class named `Bar` having the following methods:
 
@@ -321,7 +321,7 @@ You have now implemented the **Observer** pattern where the `BarObserver` is the
 
 ### 4. STRATEGY PATTERN
 
-Our clients may want to adopt different approaches to their drink ordering. We can use the strategy pattern for this!
+Our clients may want to adopt different approaches to their drink ordering. We can use the strategy pattern for this! You can learn more about it [here](https://refactoring.guru/design-patterns/strategy).
 
 - Add a new method (`order`) to the `StringBar` class, so that clients can order their favorite `StringRecipe`s, that passes the following test (as you can see we are using a method to facilitate creating a recipe):
 
@@ -505,7 +505,7 @@ public void romulan() {
 }
 ```
 
-You have now implemented the **Factory-Method** pattern where the `AlienClient` is the **Creator**, the two different alien races are the `ConcreteCreator`s, the `OrderingStrategy` is the **Product** and the two different strategies are the **ConcreteProducts**:
+You have now implemented the **Factory-Method** pattern where the `AlienClient` is the **Creator**, the two different alien races are the `ConcreteCreator`s, the `OrderingStrategy` is the **Product** and the two different strategies are the **ConcreteProducts**. You can learn more about it [here](https://refactoring.guru/design-patterns/factory-method).
 
 ![img](https://www.fe.up.pt/~arestivo/page/img/exercises/patterns/factory-method.svg)
 
