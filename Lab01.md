@@ -25,7 +25,7 @@ On the Project tool window (the frame on the left), open the `helloworld` folder
 
 ```java
 public class Application {
-   public static void main(String args[]) {
+   public static void main(String[] args) {
        System.out.println("Hello World");
    }
 }
