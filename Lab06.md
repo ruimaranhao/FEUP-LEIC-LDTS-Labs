@@ -171,7 +171,7 @@ public void transformerGroup() {
 }
 ```
 
-- As you can see, a `StringTransformerGroup` is very similar to the `StringRecipe` class. The main difference is that we will make the `TransformerGroup` also implement the `StringTransformer` interface. This should make the following test pass:
+- As you can see, a `StringTransformerGroup` is very similar to the `StringRecipe` class. The main difference is that we will make the `StringTransformerGroup` also implement the `StringTransformer` interface. This should make the following test pass:
 
 ```java
 @Test
