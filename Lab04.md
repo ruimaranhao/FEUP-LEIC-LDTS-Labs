@@ -31,7 +31,11 @@ Each lab should be submitted at the GitLab repository (hosted on the University 
     ```
 - Connect your local repository to the remote by running `git remote add origin <remote_address>`. The remote address is the **SSH** address of your GitLab repository and should resemble: `git@gitlab.up.pt:ldts/ldts2627/unit-testing-junit-spock-lab3-<up id>.git`. (Refer to the steps from our last lab if needed). After linking, don't forget to commit your changes and push them to the remote repository.
 
-> :heavy_exclamation_mark: Pushing to `gitlab.up.pt` requires you to be on the **FEUP network** (for example, **eduroam** on campus). If you are working **outside the FEUP network**, connect through the **FEUP VPN** first. If you cannot configure the VPN, use the repository's **HTTPS** address instead of SSH (HTTPS is reachable from outside the FEUP network): `https://gitlab.up.pt/ldts/ldts2627/unit-testing-junit-spock-lab3-<up id>.git`.
+> :heavy_exclamation_mark: Pushing to `gitlab.up.pt` requires you to be on the **FEUP network** (for example, **eduroam** on campus). If you are working **outside the FEUP network**, connect through the **FEUP VPN** first. If you cannot configure the VPN, **change your remote to HTTPS** instead of SSH (HTTPS is reachable from outside the FEUP network) by running:
+>
+> ```shell
+> git remote set-url origin https://gitlab.up.pt/ldts/ldts2627/unit-testing-junit-spock-lab3-<up id>.git
+> ```
 
 ### 3. Inspect and Analyze the Project
 
