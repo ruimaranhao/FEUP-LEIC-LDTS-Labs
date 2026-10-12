@@ -3,14 +3,14 @@
 
 ## Lab-04/05/06: Unit Testing with JUnit 
 
-Each lab should be submitted at the GitLab repository (hosted on the University of Porto GitLab instance, `gitlab.up.pt`) that has already been created for you: `testing-junit-lab3-<up id>`. This is where the final version of the lab must be submitted. Submitted labs will be evaluated as part of the class participation component.
+Each lab should be submitted at the GitLab repository (hosted on the University of Porto GitLab instance, `gitlab.up.pt`) that has already been created for you: `unit-testing-junit-spock-lab3-<up id>`. This is where the final version of the lab must be submitted. Submitted labs will be evaluated as part of the class participation component.
 
 
 ### 1. Access your GitLab repository
 
-- Your repository has **already been created**: `testing-junit-lab3-<up id>` (where `<up id>` is your institutional identifier, e.g. `up201406150`). You should have received an **email invitation** to accept access to it.
+- Your repository has **already been created**: `unit-testing-junit-spock-lab3-<up id>` (where `<up id>` is your institutional identifier, e.g. `up201406150`). You should have received an **email invitation** to accept access to it.
 - Accept the invitation and open your repository, for example:
-`https://gitlab.up.pt/ldts/ldts2627/java-and-gradle-lab2-<up id>`. Leave it open, you will need it later.
+`https://gitlab.up.pt/ldts/ldts2627/unit-testing-junit-spock-lab3-<up id>`. Leave it open, you will need it later.
 - This repository is where the **final version of the lab must be submitted**.
 
 
@@ -29,7 +29,7 @@ Each lab should be submitted at the GitLab repository (hosted on the University 
     build/
     *.iml
     ```
-- Connect your local repository to the remote by running `git remote add origin <remote_address>`. The remote address should resemble: `git@github.com:FEUP-LDTS-2024/lab-w4-unit-testing-<your_username>.git`. (Refer to the steps from our last lab if needed). After linking, don't forget to commit your changes and push them to the remote repository.
+- Connect your local repository to the remote by running `git remote add origin <remote_address>`. The remote address is the **SSH** address of your GitLab repository and should resemble: `git@gitlab.up.pt:ldts/ldts2627/unit-testing-junit-spock-lab3-<up id>.git`. (Refer to the steps from our last lab if needed). After linking, don't forget to commit your changes and push them to the remote repository.
 
 ### 3. Inspect and Analyze the Project
 
