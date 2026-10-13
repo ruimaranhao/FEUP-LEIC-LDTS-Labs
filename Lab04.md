@@ -29,7 +29,7 @@ Each lab should be submitted at the GitLab repository (hosted on the University 
     build/
     *.iml
     ```
-- Connect your local repository to the remote by running `git remote add origin <remote_address>`. The remote address should resemble: `git@github.com:FEUP-LDTS-2024/lab-w4-unit-testing-<your_username>.git`. (Refer to the steps from our last lab if needed). After linking, don't forget to commit your changes and push them to the remote repository.
+- Connect your local repository to the remote by running `git remote add origin <remote_address>`. The remote address should resemble: `git@gitlab.up.pt:ldts/ldts2627/testing-junit-lab3-<up id>.git`. (Refer to the steps from our last lab if needed). After linking, don't forget to commit your changes and push them to the remote repository.
 
 ### 3. Inspect and Analyze the Project
 
