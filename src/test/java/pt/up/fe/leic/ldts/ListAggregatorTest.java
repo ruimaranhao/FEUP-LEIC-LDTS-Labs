@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ListAggregatorTest {
     @Test
-    public void sum() {
+    public void testSum() {
         List<Integer> list = Arrays.asList(1,2,4,2,5);
 
         ListAggregator aggregator = new ListAggregator();
@@ -18,7 +18,7 @@ public class ListAggregatorTest {
     }
 
     @Test
-    public void max() {
+    public void testMax() {
         List<Integer> list = Arrays.asList(1,2,4,2,5);
 
         ListAggregator aggregator = new ListAggregator();
@@ -28,7 +28,7 @@ public class ListAggregatorTest {
     }
 
     @Test
-    public void min() {
+    public void testMin() {
         List<Integer> list = Arrays.asList(1,2,4,2,5);
 
         ListAggregator aggregator = new ListAggregator();
@@ -38,7 +38,7 @@ public class ListAggregatorTest {
     }
 
     @Test
-    public void distinct() {
+    public void testDistinct() {
         List<Integer> list = Arrays.asList(1,2,4,2,5);
 
         ListAggregator aggregator = new ListAggregator();
