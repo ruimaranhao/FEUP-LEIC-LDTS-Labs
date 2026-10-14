@@ -97,8 +97,10 @@ public class ListAggregatorTest {
 
     @Test
     public void testSum() {
-        int sum = ListAggregator.sum(numbers);
-        assertEquals(15, sum);
+        ListAggregator aggregator = new ListAggregator();
+        int sum = aggregator.sum(numbers);
+
+        Assertions.assertEquals(14, sum);
     }
 }
 ```
