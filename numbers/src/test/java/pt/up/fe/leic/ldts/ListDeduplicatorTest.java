@@ -9,7 +9,7 @@ import java.util.List;
 public class ListDeduplicatorTest {
 
     @Test
-    public void deduplicate() {
+    public void testDeduplicate() {
         List<Integer> list = Arrays.asList(1,2,4,2,5);
         List<Integer> expected = Arrays.asList(1,2,4,5);
 
