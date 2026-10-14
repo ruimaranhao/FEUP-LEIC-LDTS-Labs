@@ -1,4 +1,4 @@
-# [Software Design and Testing Laboratory](https://sigarra.up.pt/feup/en/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=560099)
+# [Software Design and Testing Laboratory](https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=586992)
 
 
 ## Lab-01: A Brief Introduction to Java and Git
@@ -16,7 +16,7 @@ Let's start by creating a project in [IntelliJ IDEA](https://www.jetbrains.com/i
 - On the left, choose "Java" for the type of project.
 - Name the project `helloworld` and choose a suitable project location.
 - Choose "Gradle" as the "Build System", "Groovy" as the "Gradle DSL", and deselect "Add sample code".
-- For the SDK, select any with version 21. If none is listed, you can download it directly from IntelliJ.
+- For the JDK, select any with version 21. If none is listed, you can download it directly from IntelliJ.
 - Click "Create". 
 
 The steps above will create a `.idea` directory. This is where IntelliJ keeps all the settings for your project. Note that there is also a `src` directory where all the source code is stored.
@@ -25,7 +25,7 @@ On the Project tool window (the frame on the left), open the `helloworld` folder
 
 ```java
 public class Application {
-   public static void main(String args[]) {
+   public static void main(String[] args) {
        System.out.println("Hello World");
    }
 }
