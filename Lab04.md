@@ -16,7 +16,7 @@ Each lab should be submitted at the GitLab repository (hosted on the University 
 
 ### 2. Project Setup
 
-- **Download** and **unzip** the following [project](https://moodle2627.up.pt/mod/resource/view.php?id=65480) into a suitable folder on your computer.
+- **Download** and **unzip** the following [project](https://moodle2627.up.pt/mod/url/view.php?id=103872) into a suitable folder on your computer.
 - Launch **IntelliJ**, then **open** the project.
 - To Run all tests, navigate to `src/test/java`, **right-click** and choose **“Run Tests in 'numbers.test'”**.
 - Ensure that all tests **pass**. If necessary, enable the display of passing tests by clicking the checkmark (✔️) icon.
