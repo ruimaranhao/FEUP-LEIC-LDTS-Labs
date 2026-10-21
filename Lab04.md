@@ -362,7 +362,7 @@ Also add the following section anywhere in your **build.gradle** file:
 
 ```gradle
 pitest {
-  junit5PluginVersion = '1.2.1'
+  junit5PluginVersion = '1.2.2'
 }
 ```
 
