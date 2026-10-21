@@ -355,7 +355,7 @@ Test coverage allows us to **access** the **percentage** of lines **covered** by
 To use **PIT** (a **test mutation system** for **Java**) we must first add the following line to the **plugin section** of our **build.gradle** file:
 
 ```gradle
-  id 'info.solidsoft.pitest' version '1.15.0'
+  id 'info.solidsoft.pitest' version '1.19.0'
 ```
 
 Also add the following section anywhere in your **build.gradle** file:
