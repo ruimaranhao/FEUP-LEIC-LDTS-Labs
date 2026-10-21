@@ -212,7 +212,7 @@ This technique is known as **[Dependency Injection](https://web.fe.up.pt/~aresti
 > :question: We have just done dependency injection via a parameter of the `distinct` method. Another option would be to inject this dependency via the constructor of the class. What are the advantages and disadvnages of doing one over the other?
 
 ```java
-package com.aor.numbers;
+package pt.up.fe.leic.ldts;
 
 import java.util.List;
 
@@ -366,7 +366,7 @@ pitest {
 }
 ```
 
-By default, **PIT** runs all tests **under** the **package** with the **same name** as the **group** defined in your **build.gradle** file. So if all your classes and tests are under the **com.aor.numbers** package, no other configuration should be necessary.
+By default, **PIT** runs all tests **under** the **package** with the **same name** as the **group** defined in your **build.gradle** file. So if all your classes and tests are under the **pt.up.fe.leic.ldts** package, no other configuration should be necessary.
 
 **PIT** should have **automatically** created a **gradle** **task** called **pitest** that you can execute by doing (or using the IntelliJ gradle panel):
 
