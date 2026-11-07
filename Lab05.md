@@ -1,17 +1,15 @@
-# [Software Design and Testing Laboratory](https://sigarra.up.pt/feup/en/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=560099)
-
-All labs must be submitted via GitHub Classroom. Submitted labs will be assessed as part of the class participation grade.
-
-#### Create repository at GitHub classrooms
-
-- Open the following invite: https://classroom.github.com/a/QHjS_KEB. 
-- Search you name or institucional identifier. Accept the assignment.
-- Open the github repository generated:
-`https://github.com/FEUP-LDTS-2024/lab-w8-solid-principles-<username>`. Leave it open, you will need it later.
-
+# [Software Design and Testing Laboratory](https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=586992)
 
 ## Lab-05: SOLID
 
+Each lab should be submitted at the GitLab repository (hosted on the University of Porto GitLab instance, gitlab.up.pt) that has already been created for you: solid-lab4-<up id>. This is where the final version of the lab must be submitted. Submitted labs will be evaluated as part of the class participation component.
+
+1. Access your GitLab repository
+Your repository has already been created: solid-lab4-<up id> (where <up id> is your institutional identifier, e.g. up201406150). You should have received an email invitation to accept access to it.
+Accept the invitation and open your repository, for example: https://gitlab.up.pt/ldts/ldts2627/solid-lab4-<up id>. Leave it open, you will need it later.
+This repository is where the final version of the lab must be submitted.
+
+### Intro
 
 In software engineering, SOLID is a mnemonic acronym for five design principles intended to make software designs more understandable, flexible, and maintainable. The principles are a subset of many principles promoted by American software engineer and instructor Robert C. Martin, first introduced in his 2000 paper Design Principles and Design Patterns.[2][4]
 
