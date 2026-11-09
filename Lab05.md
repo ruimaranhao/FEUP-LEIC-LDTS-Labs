@@ -2,14 +2,21 @@
 
 ## Lab-05: SOLID
 
-Each lab should be submitted at the GitLab repository (hosted on the University of Porto GitLab instance, gitlab.up.pt) that has already been created for you: `solid-lab4-<up id>`. This is where the final version of the lab must be submitted. Submitted labs will be evaluated as part of the class participation component.
+Each lab should be submitted at the GitLab repository (hosted on the University of Porto GitLab instance, `gitlab.up.pt`) that has already been created for you: `solid-lab4-<up id>`. This is where the final version of the lab must be submitted. Submitted labs will be evaluated as part of the class participation component.
 
 ### Access your GitLab repository
 
 - Your repository has **already been created**: `solid-lab4-<up id>` (where `<up id>` is your institutional identifier, e.g. `up201406150`). You should have received an **email invitation** to accept access to it.
 - Accept the invitation and open your repository, for example:
-`[https://gitlab.up.pt/ldts/ldts2627/solid-lab4-<up id>](https://gitlab.up.pt/ldts/ldts2627/solid-lab4-<up id>)`. Leave it open, you will need it later.
+`https://gitlab.up.pt/ldts/ldts2627/solid-lab4-<up id>`. Leave it open, you will need it later.
 - This repository is where the **final version of the lab must be submitted**.
+- When you are ready to submit, connect your local project to the remote by running `git remote add origin <remote_address>`. The remote address is the **SSH** address of your GitLab repository and should resemble: `git@gitlab.up.pt:ldts/ldts2627/solid-lab4-<up id>.git`. After linking, don't forget to commit your changes and push them to the remote repository.
+
+> :heavy_exclamation_mark: Pushing to `gitlab.up.pt` requires you to be on the **FEUP network** (for example, **eduroam** on campus). If you are working **outside the FEUP network**, connect through the **FEUP VPN** first. If you cannot configure the VPN, **change your remote to HTTPS** instead of SSH (HTTPS is reachable from outside the FEUP network) by running:
+>
+> ```shell
+> git remote set-url origin https://gitlab.up.pt/ldts/ldts2627/solid-lab4-<up id>.git
+> ```
 
 
 ### Intro
