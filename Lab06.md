@@ -1,16 +1,22 @@
-# [Software Design and Testing Laboratory](https://sigarra.up.pt/feup/en/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=560099)
-
-All labs must be submitted via GitHub Classroom. Submitted labs will be assessed as part of the class participation grade.
-
-#### Create repository at GitHub classrooms
-
-- Open the following invite: https://classroom.github.com/a/1QKT-IBv. 
-- Search you name or institucional identifier. Accept the assignment.
-- Open the github repository generated:
-`https://github.com/FEUP-LDTS-2024/lab-w9-design-patterns-<username>`. Leave it open, you will need it later.
-
+# [Software Design and Testing Laboratory](https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=586992)
 
 ## Lab-06: Design Patterns
+
+Each lab should be submitted at the GitLab repository (hosted on the University of Porto GitLab instance, `gitlab.up.pt`) that has already been created for you: `design-patterns-lab5-<up id>`. This is where the final version of the lab must be submitted. Submitted labs will be evaluated as part of the class participation component.
+
+### Access your GitLab repository
+
+- Your repository has **already been created**: `design-patterns-lab5-<up id>` (where `<up id>` is your institutional identifier, e.g. `up201406150`). You should have received an **email invitation** to accept access to it.
+- Accept the invitation and open your repository, for example:
+`https://gitlab.up.pt/ldts/ldts2627/design-patterns-lab5-<up id>`. Leave it open, you will need it later.
+- This repository is where the **final version of the lab must be submitted**.
+- When you are ready to submit, connect your local project to the remote by running `git remote add origin <remote_address>`. The remote address is the **SSH** address of your GitLab repository and should resemble: `git@gitlab.up.pt:ldts/ldts2627/design-patterns-lab5-<up id>.git`. After linking, don't forget to commit your changes and push them to the remote repository.
+
+> :heavy_exclamation_mark: Pushing to `gitlab.up.pt` requires you to be on the **FEUP network** (for example, **eduroam** on campus). If you are working **outside the FEUP network**, connect through the **FEUP VPN** first. If you cannot configure the VPN, **change your remote to HTTPS** instead of SSH (HTTPS is reachable from outside the FEUP network) by running:
+>
+> ```shell
+> git remote set-url origin https://gitlab.up.pt/ldts/ldts2627/design-patterns-lab5-<up id>.git
+> ```
 
 In software engineering, a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. Rather, it is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.
 
